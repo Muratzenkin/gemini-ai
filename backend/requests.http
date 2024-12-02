@@ -1,0 +1,9 @@
+@host =  http://localhost:3030/
+
+POST {{host}}gemini
+Content-Type: application/json
+
+{
+    "prompt": "Hello how are you?",
+    "history": []
+}
